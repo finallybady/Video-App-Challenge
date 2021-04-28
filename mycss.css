@@ -1,0 +1,335 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2021, 4:24:09 PM
+    Author     : User
+*/
+body{
+    margin:0;
+    background-image: url('images/@screen.png');
+    /* background-size:contain; */
+    background-size: 1024px 560px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: grey;
+    
+}
+/* traffic lights buttons (close, minimize, fullscreen) */
+
+.b1{
+    background: url('images/close.svg') no-repeat;
+    position:absolute;
+    cursor:pointer;
+    height:12px;
+    border:none;
+    left:190px;
+    top:70px;
+}
+.b2{
+    background: url('images/minimize.svg') no-repeat;
+    position:absolute;
+    cursor:pointer;
+    height:12px;
+    border:none;
+    left:210px;
+    top:70px;
+}
+.b3{
+    background: url('images/fullscreen.svg') no-repeat;
+    position:absolute;
+    cursor:pointer;
+    height:12px;
+    border:none;
+    left:230px;
+    top:70px;
+}
+.b1:hover,.b2:hover,.b3:hover{
+    opacity:0.6;
+}
+
+/* participants tab */
+.header1{
+    background-color: #FFFFFF;
+    display:block;
+    position:absolute;
+    height:138px;
+    left:180px;
+    top: 390px;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+p.t1{
+    position: absolute;
+    width: 62px;
+    height: 15px;
+    left: 2px;
+    top: 1px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+p.t2{
+    position: absolute;
+    left: 64px;
+    top:1px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.arrowbtn{
+    position: absolute;
+    background: url('images/PagingRight.png') no-repeat;
+    border: none;
+    cursor: pointer;
+    height:24px;
+    width:24px;
+    opacity:0.5;
+    right: 25px;
+    bottom: 40px;
+}
+.arrowbtn:hover{
+    opacity:1;
+}
+.arrow{
+    position:absolute;
+    right:22px;
+    bottom:10px;
+    z-index: 1;
+}
+
+/* bottom list of icons */
+.audio-off{
+    background-color: #ff3366;
+    font-family: SF Pro Text;
+    width:52px;
+    position:absolute;
+    left:188px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color:white;
+    line-height: 15px;
+    border-radius: 8px;
+    text-align: center;
+    bottom:18%;
+}
+.icons11{
+    display: block;    
+    position:absolute;
+    background-position: center;
+    
+    background-color: #ff3366;
+    border:none;
+    padding: 2px;
+    border-radius: 10px;
+    height:48px;
+    width:48px;
+    left:190px;
+    bottom:10%;
+    cursor: pointer;
+}
+.icons12{
+    display: block;
+    position:absolute;
+    background-position: center;
+    
+    background-color: #ffffd2;
+    border:none;
+    padding: 2px;
+    border-radius: 10px;
+    height:48px;
+    width:48px;
+    left:246px;
+    bottom:10%;
+    cursor: pointer;
+}
+
+
+.icons21{
+    display: block;
+    position:absolute;
+    background-position: center;
+   
+    background-color: #ffffd2;
+    border:none;
+    padding: 2px;
+    border-radius: 10px;
+    height:48px;
+    width:48px;
+    left:334px;
+    bottom:10%;
+    cursor: pointer;
+}
+.icons22{
+    display: block;
+    position:absolute;
+    background-position: center;
+    
+    background-color: #ffffd2;
+    border:none;
+    padding: 2px;
+    border-radius: 10px;
+    height:48px;
+    width:48px;
+    left:390px;
+    bottom:10%;
+    cursor: pointer;
+}
+
+.icons31{
+    display: block;
+    position:absolute;
+    background-position: center;
+    
+    background-color: #ffffd2;
+    border:none;
+    padding: 2px;
+    border-radius: 10px;
+    height:48px;
+    width:48px;
+    left:668px;
+    bottom:10%;
+    cursor: pointer;
+}
+.icons32{
+    display: block;
+    position:absolute;
+    background-position: center;
+    background-position: right;
+    
+    background-color: #ffffd2;
+    border:none;
+    padding: 2px;
+    border-radius: 10px;
+    height:48px;
+    width:48px;
+    left:724px;
+    bottom:10%;
+    cursor: pointer;
+}
+
+.icons4{
+    display:inline-flex;
+    flex:1;
+    padding: 5px;
+}
+.icons41{
+    display: block;
+    position:absolute;
+    background-position: center;
+    
+    background-size: 34px;
+    background-color: #ffffd2;
+    border:none;
+    padding: 2px;
+    border-radius: 10px;
+    height:48px;
+    width:48px;
+    right:190px;
+    bottom:10%;
+    cursor: pointer;
+}
+
+.icons11:hover,.icons12:hover, .icons21:hover, .icons22:hover,
+.icons31:hover, .icons32:hover, .icons41:hover{
+    opacity: 0.8;
+}
+
+
+.name {
+    position:absolute;
+    left:46px;
+    bottom:10px;
+}
+
+.tools {
+    position:absolute;
+    right:10px;
+    top:5px;
+    margin: 0 10px 0 10px;
+}
+
+.mini {
+    margin: 0 7px 0 7px;
+}
+
+.i1 {
+    position:absolute;
+    left:8px;
+    z-index: 1;
+    bottom: 8px;
+}
+.i2{
+    position:absolute;
+    bottom: 8px;
+    left:8px;
+}
+.i3{
+    position:absolute;
+    bottom: 8px;
+    left:172px;
+}
+.i4{
+    position:absolute;
+    bottom: 8px;
+    left:340px;
+}
+.i5{
+    position:absolute;
+    bottom: 8px;
+    left:508px;
+}
+.i6{
+    position:absolute;
+    bottom: 8px;
+    left:676px;
+}
+.i7{
+    position:absolute;
+    bottom: 8px;
+    right:8px;
+}
+
+.host {
+    position: absolute;
+    bottom:10px;
+    left:14px;
+    background-color: black;
+}
+.me{
+    position: absolute;
+    left: 176px;
+    bottom:10px;
+}
+
+.name1 {
+    position: absolute;
+    left: 344px;
+    bottom:10px;
+}
+.name2{
+    position: absolute;
+    left: 512px;
+    bottom:10px;
+}
+.name3{
+    position: absolute;
+    left: 680px;
+    bottom:10px;
+}
+.name4{
+    position: absolute;
+    right: 104px;
+    bottom:10px;
+}
