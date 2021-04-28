@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 body{
     margin:0;
-    background-image: url('images/@screen.png');
+    background-image: url('images/@Screen.png');
     /* background-size:contain; */
     background-size: 1024px 560px;
     background-repeat: no-repeat;
